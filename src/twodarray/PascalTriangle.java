@@ -16,6 +16,7 @@ public class PascalTriangle {
         return result;
     }
 }
+
 class Main1{
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner();
