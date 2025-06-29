@@ -1,6 +1,6 @@
 package day2;
 
-public class RotateImage {
+public class RotateImageUsingBruteForceApproach {
     public void rotate(int[][] matrix) {
         // Create a temporary matrix with transposed dimensions (columns = rows, rows = columns)
         int[][] tempMatrix = new int[matrix[0].length][matrix.length];
@@ -21,7 +21,7 @@ public class RotateImage {
     }
 
     public static void main(String[] args) {
-        RotateImage rotateImage = new RotateImage();
+        RotateImageUsingBruteForceApproach rotateImage = new RotateImageUsingBruteForceApproach();
         int[][] matrix = {
                 {1, 2, 3, 4},
                 {4, 5, 6, 7},
